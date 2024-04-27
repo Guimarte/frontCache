@@ -5,7 +5,7 @@ import 'package:frontend_cidade/models/estados_model.dart';
 import 'package:http/http.dart' as http;
 
 class Requesters {
-  String baseUrl = "http://192.168.15.175:8080";
+  String baseUrl = "http://localhost:8080";
 
   Future<List<EstadosModel>> getEstados() async {
     http.Response response =
